@@ -1,0 +1,110 @@
+.whoWeAre {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+  border-bottom: #34610c 9px solid;
+}
+
+.whoWeAre::after {
+  content: '';
+  height: 100%;
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1;
+  width: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydgJDMZycFYgYVdvYBf4zoxNpdlcTTy1d1Q&usqp=CAU')
+    no-repeat center center/cover;
+}
+
+.whoWeAre h1 p {
+  font-weight: bolder;
+}
+
+.ourGoal {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://www.euractiv.com/wp-content/uploads/sites/2/2019/04/dutch-800x450.jpg')
+    no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  height: 80vh;
+  border-bottom: #ff0018 9px solid;
+}
+.contentRow {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  gap: 15px;
+}
+.products {
+  position: relative;
+  height: 60vh;
+  background-color: aquamarine;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.overproducts {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: cadetblue;
+  transition: all linear 0.6s;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  top: -100%;
+}
+.products:hover .overproducts {
+  top: 0;
+}
+.suboverproducts {
+  height: 100%;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ourGoal::after {
+  background: url('https://www.euractiv.com/wp-content/uploads/sites/2/2019/04/dutch-800x450.jpg')
+    no-repeat center center/cover;
+  content: '';
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #34610c;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #34610c;
+  color: #34610c;
+}
+
+.aboutUsContainer {
+  border-top: 9px #34610c solid;
+}

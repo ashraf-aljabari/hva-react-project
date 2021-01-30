@@ -1,0 +1,133 @@
+.cards {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.cards a {
+  text-decoration: none !important;
+}
+
+.cards .card {
+  cursor: pointer;
+}
+
+.cards .card:hover {
+  -webkit-box-shadow: 5px 9px 18px 1px rgba(48, 48, 48, 0.25) !important;
+  box-shadow: 5px 9px 18px 1px rgba(48, 48, 48, 0.25) !important;
+}
+
+.cards .card .flow {
+  overflow: hidden;
+}
+
+.cards .card .flow .card-img-top {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.cards .card .flow .card-img-top:hover {
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+
+.cards .card .card-body {
+  padding: 3rem 0 !important;
+}
+
+.cards .card .card-body .card-title .card-text {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.cards .card .card-body .card-title .btn-primary,
+.cards .card .card-body .card-title .btn-primary:hover,
+.cards .card .card-body .card-title .btn-primary:active,
+.cards .card .card-body .card-title .btn-primary:visited,
+.cards .card .card-body .card-title .btn-primary:focus {
+  color: black;
+  background-color: #eef6fd !important;
+  border-color: #bfcbd2 !important;
+}
+
+.cards .card .card-body .card-title .btn-primary:focus,
+.cards .card .card-body .card-title .btn-primary:hover {
+  background-color: #bfcbd2 !important;
+  border-color: #bfcbd2 !important;
+}
+
+.box {
+  height: 230px;
+}
+
+.box .des {
+  margin: 0 !important;
+  margin-top: 24px !important;
+}
+
+.MarvelLogo-card {
+  text-align: center;
+  margin-top: 1rem;
+  width: 40vw;
+  max-width: 400px;
+  margin: auto;
+}
+
+.MarvelLogo-card h2 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .MarvelLogo-card {
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.developers-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.developers-cards .box {
+  height: 230px;
+  width: 170px;
+  background: repeating-linear-gradient(#3f72af, #112d4e);
+  -webkit-box-shadow: 1px 1px 1px gray;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.developers-cards .box:hover {
+  height: 230px;
+  background: repeating-linear-gradient(#3f72af, #112d4e);
+  -webkit-box-shadow: 1px 1px 1px gray;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.developers-cards .img-box {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  -webkit-box-shadow: 1px 1px 10px #112d4e;
+  box-shadow: 1px 1px 10px #112d4e;
+}
+
+.developers-cards .box .des {
+  margin: 0 !important;
+  margin-top: 24px !important;
+}
+/*# sourceMappingURL=CardStyle.css.map */
