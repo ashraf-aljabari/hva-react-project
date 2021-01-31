@@ -1,110 +1,271 @@
 .whoWeAre {
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 80vh;
-  border-bottom: #34610c 9px solid;
+	padding: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 80vh;
+	border-bottom: #34610c 9px solid;
+	font-weight: bolder;
+	font-size: large;
 }
 
 .whoWeAre::after {
-  content: '';
-  height: 100%;
-  position: absolute;
-  opacity: 0.6;
-  z-index: -1;
-  width: 100%;
-  display: block;
-  left: 0;
-  top: 0;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydgJDMZycFYgYVdvYBf4zoxNpdlcTTy1d1Q&usqp=CAU')
-    no-repeat center center/cover;
+	content: "";
+	height: 100%;
+	position: absolute;
+	opacity: 0.6;
+	z-index: -1;
+	width: 100%;
+	display: block;
+	left: 0;
+	top: 0;
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydgJDMZycFYgYVdvYBf4zoxNpdlcTTy1d1Q&usqp=CAU")
+		no-repeat center center/cover;
 }
 
 .whoWeAre h1 p {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 .ourGoal {
-  padding: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url('https://www.euractiv.com/wp-content/uploads/sites/2/2019/04/dutch-800x450.jpg')
-    no-repeat center center/cover;
-  color: #fff;
-  position: relative;
-  height: 80vh;
-  border-bottom: #ff0018 9px solid;
+	padding: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 80vh;
+	border-bottom: #ff0018 9px solid;
+	font-weight: bolder;
+	font-size: large;
 }
 .contentRow {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  gap: 15px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	gap: 15px;
 }
 .products {
-  position: relative;
-  height: 60vh;
-  background-color: aquamarine;
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  cursor: pointer;
+	position: relative;
+	height: 60vh;
+	background: url("https://agriveda.files.wordpress.com/2017/09/factory-farming.jpg?w=1280")
+		no-repeat center center/cover;
+	padding-top: 6rem;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.products1 {
+	position: relative;
+	height: 60vh;
+	background: url("https://miro.medium.com/max/11954/1*9JpyMrV9nRwQseJ1brIz-g.jpeg")
+		no-repeat center center/cover;
+	padding-top: 6rem;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bolder;
+}
+.products2 {
+	position: relative;
+	height: 60vh;
+	background: url("https://www.purafil.com/wp-content/uploads/2019/06/Grow-Banner.jpg")
+		no-repeat center center/cover;
+	padding-top: 6rem;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bolder;
+}
+.products3 {
+	position: relative;
+	height: 60vh;
+	background: url("https://bulkinside.com/wp-content/uploads/2019/01/frozen-food-processing.jpg")
+		no-repeat center center/cover;
+	padding-top: 6rem;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bolder;
+}
+
+.mark {
+	text-align: center;
+	background: white;
+	background: rgb(250, 250, 250);
+	background: rgba(250, 250, 250, 0.7);
+	font-weight: bold;
+}
+.mark1 {
+	text-align: center;
+	background: white;
+	background: rgb(250, 250, 250);
+	background: rgba(250, 250, 250, 0.7);
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+}
+.mark {
+	text-align: center;
+	background: white;
+	background: rgb(250, 250, 250);
+	background: rgba(250, 250, 250, 0.7);
+	font-weight: bold;
+	width: 100%;
 }
 .overproducts {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: cadetblue;
-  transition: all linear 0.6s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  top: -100%;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: cadetblue;
+	transition: all linear 0.6s;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	top: -100%;
 }
 .products:hover .overproducts {
-  top: 0;
+	top: 0;
+}
+.overproducts1 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: cadetblue;
+	transition: all linear 0.6s;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	top: -100%;
+}
+.products1:hover .overproducts1 {
+	top: 0;
+}
+.overproducts2 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: cadetblue;
+	transition: all linear 0.6s;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	top: -100%;
+}
+.products2:hover .overproducts2 {
+	top: 0;
+}
+.overproducts3 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: cadetblue;
+	transition: all linear 0.6s;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	top: -100%;
+}
+.products3:hover .overproducts3 {
+	top: 0;
 }
 .suboverproducts {
-  height: 100%;
-  align-items: center;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
+	height: 100%;
+	align-items: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: url("https://agriveda.files.wordpress.com/2017/09/factory-farming.jpg?w=1280")
+		no-repeat center center/cover;
 }
+.suboverproducts1 {
+	height: 100%;
+	align-items: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: url("https://miro.medium.com/max/11954/1*9JpyMrV9nRwQseJ1brIz-g.jpeg")
+		no-repeat center center/cover;
+}
+.suboverproducts2 {
+	height: 100%;
+	align-items: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: url("https://www.purafil.com/wp-content/uploads/2019/06/Grow-Banner.jpg")
+		no-repeat center center/cover;
+}
+.suboverproducts3 {
+	height: 100%;
+	align-items: center;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background: url("https://bulkinside.com/wp-content/uploads/2019/01/frozen-food-processing.jpg")
+		no-repeat center center/cover;
+}
+
 .ourGoal::after {
-  background: url('https://www.euractiv.com/wp-content/uploads/sites/2/2019/04/dutch-800x450.jpg')
-    no-repeat center center/cover;
-  content: '';
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  display: block;
-  left: 0;
-  top: 0;
-  opacity: 0.6;
+	background: url("https://www.euractiv.com/wp-content/uploads/sites/2/2019/04/dutch-800x450.jpg")
+		no-repeat center center/cover;
+	content: "";
+	height: 100%;
+	position: absolute;
+	opacity: 0.6;
+	z-index: -1;
+	width: 100%;
+	display: block;
+	left: 0;
+	top: 0;
 }
 
 .btn {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 30px;
-  color: #fff;
-  background-color: #34610c;
-  border: none;
-  border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: #34610c;
+	border: 2px solid #34610c;
+	border-radius: 5px;
+	width: 16rem;
 }
 
 .btn:hover {
-  background: transparent;
-  border: 2px solid #34610c;
-  color: #34610c;
+	background: transparent;
+	color: #34610c;
+	font-weight: bolder;
 }
 
 .aboutUsContainer {
-  border-top: 9px #34610c solid;
+	border-top: 9px #34610c solid;
+}
+
+.card-btn {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 30px;
+
+	border: 2px solid #fff;
+	border-radius: 5px;
+	width: 12rem;
+
+	background: #fff;
+	color: black;
+}
+
+.card-btn:hover {
+	color: #fff;
+	font-weight: bolder;
+	background: transparent;
 }
